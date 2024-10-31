@@ -1,0 +1,22 @@
+{
+  "name": "lit-presentation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "deploy": "yarn build && yarn gh-pages -d ./dist",
+    "build": "rimraf dist && tsc && vite build && mkdir -p ./dist/src/assets && cp -a src/assets/* dist/src/assets/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.11.0",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
