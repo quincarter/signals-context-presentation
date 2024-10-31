@@ -304,6 +304,10 @@ export class PresentationSlides extends LitElement {
       <section id="slide10">
         <div class="o-wrapper">
           <h1>So what are they?</h1>
+          <img
+            src="https://media.tenor.com/X73EqPfwAfIAAAAM/minion-any-questions-question.gif"
+            alt="minion ?"
+          />
         </div>
       </section>
 
@@ -327,7 +331,7 @@ export class PresentationSlides extends LitElement {
       <section id="slide13">
         <div class="o-wrapper">
           <h1>TC39 Proposal</h1>
-          <img src="" alt="tc39" />
+          <img class="tc39" src="src/assets/tc39-qr.png" alt="tc39qr" />
         </div>
       </section>
 
@@ -498,6 +502,10 @@ export class PresentationSlides extends LitElement {
       <section id="slide31">
         <div class="o-wrapper">
           <img src="src/assets/qanda.jpeg" alt="Q & A" />
+          <img
+            src="https://media.tenor.com/8Jz66QqqvzQAAAAM/freak-out-nerd-kid.gif"
+            alt="nerd out kid"
+          />
         </div>
       </section>
 

@@ -126,6 +126,11 @@ section#slide11 {
   height: 100%;
 }
 
+.tc39 {
+  height: 15rem;
+  width: 15rem;
+}
+
 #slide25 > .o-wrapper > .content {
   display: flex;
   place-content: center;
