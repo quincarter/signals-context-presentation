@@ -105,7 +105,24 @@ img.worker-diagrams {
   width: 25rem;
 }
 
-#slide9 > .o-wrapper {
+section#slide10,
+section#slide11 {
+  display: block;
+}
+
+#slide11 > .o-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 95%;
+}
+
+#slide14 > .o-wrapper > img {
+  height: 20rem;
+}
+#slide25 > .o-wrapper,
+#slide27 > .o-wrapper,
+#slide29 > .o-wrapper {
   height: 100%;
 }
 
@@ -120,10 +137,9 @@ img.worker-diagrams {
   max-width: 35rem;
 }
 
-#slide26 > .o-wrapper > img {
-  height: 20rem;
-}
-#slide27 > .o-wrapper > img {
+#slide26 > .o-wrapper > img,
+#slide27 > .o-wrapper > img,
+#slide28 > .o-wrapper > img {
   height: 20rem;
 }
 
