@@ -3,7 +3,6 @@ import { customElement, query } from "lit/decorators.js";
 import { _toConsumableArray } from "./utilities/helpers";
 import "../fullscreen-handler";
 import "./examples/button.example";
-import viteLogo from "../public/lit-vite.svg";
 import sdk from "@stackblitz/sdk";
 
 /**
